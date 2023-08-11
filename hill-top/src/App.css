@@ -1,0 +1,43 @@
+
+
+
+.grid{
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+  max-height: 100vh;
+}
+
+.grid-rectangle-left {
+  background-color: #21431E;
+}
+
+.grid-rectangle-right {
+  background-color: #98BE94;
+  height: 100vh;
+}
+
+.header-container {
+  padding: 1rem;
+  display: flex;
+  color: #F5F5F5;
+  font-size: 12pt;
+}
+
+.About {
+  margin-right: 1rem;
+}
+
+.Services {
+  margin-right: 1rem;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #F5F5F5;
+}
