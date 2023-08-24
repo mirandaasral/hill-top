@@ -27,6 +27,11 @@ function App() {
             </div>
           </div>
           <div class="grid-rectangle-right"></div>
+          <img
+            src="hill_top_quote.svg"
+            alt="Get A Quote"
+            class="responsive"
+          ></img>
         </div>
       </div>
     </div>
