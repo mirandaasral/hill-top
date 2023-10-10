@@ -76,6 +76,18 @@ function App() {
               FOR A QUOTE
             </p>
           </div>
+
+          <div className="mobile-footer">
+            <div className="Circle-2">
+              <img src={circle} alt="Circle"></img>
+            </div>
+            <div className="contact-mobile">
+              <h2>CONTACT</h2>
+              <li>Daniel Brociner</li>
+              <li>hilltoplawncare11@gmail.com</li>
+              <li>908-358-2227</li>
+            </div>
+          </div>
         </div>
       </div>
     </div>

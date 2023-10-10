@@ -158,4 +158,18 @@ a:hover {
   }
 }
 
+.mobile-footer{
+  background-color: #CC5500;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .grid-rectangle-left {
+    display: none;
+  }
+  .mobile-footer {
+    background-color: #CC5500;
+  }
+}
+
 
