@@ -1,0 +1,161 @@
+
+body {
+  background-color: #21431E;
+}
+
+.grid{
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2,1fr);
+  height: calc(50rem + 20vh);
+  background-color: #21431E;
+}
+
+.grid-container{
+  background-color: #21431E;
+}
+
+.Art img {
+  object-fit: cover;
+  height: 50rem;
+}
+
+.Logo img{
+  max-width: 55vh;
+  max-height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Arrow img{
+  max-width: 5vh;
+  margin-left: 10vh;
+  margin-top: -50vh;
+  margin-bottom: 5vh;
+  cursor: pointer;
+}
+
+/* .Circle {
+  position: absolute;
+} */
+
+.Circle img {
+  display: flex;
+  margin-top: -55vh;
+  margin-left:-25vh;
+}
+
+.Contact {
+  font-family: 'Avenir';
+  display: block;
+  margin-top: -80vh;
+  margin-left: 10vh;
+  color:#F5F5F5;
+}
+
+.Contact li {
+  list-style: none;
+  font-size: 24px;
+}
+
+.grid-rectangle-left {
+  box-sizing: border-box;
+  padding-top: 20vh;
+  background-color: #21431E;
+  height: calc(50rem + 20vh);
+  overflow: hidden;
+} 
+
+.grid-rectangle-right {
+  box-sizing: border-box;
+  padding-top: 30vh;
+  margin-left: 10vh;
+  margin-right: 5vh;
+  color: #F5F5F5;
+  background-color: #21431E;
+  height: calc(50rem + 20vh);
+  overflow: hidden;
+}
+
+/* .grid-rectangle-left-1 img {
+  animation: loadIn 1s linear;
+  position: absolute;
+} */
+
+
+.header-container {
+  padding: 1rem;
+  display: flex;
+  color: #F5F5F5;
+  font-size: 12pt;
+  background-color: #21431E;
+}
+
+.About {
+  margin-right: 1rem;
+}
+
+.Services {
+  margin-right: 1rem;
+}
+
+.About-Paragraph {
+  font-family: 'Avenir';
+  margin-left: 2rem;
+  margin-top: 2rem;
+  background-color: #21431E;
+}
+
+.About-Paragraph p {
+  margin-right: 4rem;
+  font-size: 24px;
+}
+
+.About-Paragraph li {
+  font-size: 24px;
+}
+
+ /* .grid-rectangle-right-2 {
+  background-color: #98BE94;
+}  */
+
+.responsive {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+/*.work {
+  height: auto;
+  max-width: 50%;
+  margin-left: 5rem;
+}**/
+
+
+
+a {
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
+li {
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+@keyframes loadIn {
+  from {
+    opacity: 0;
+    left: -100%;
+  }
+  to {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+
